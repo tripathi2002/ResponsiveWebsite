@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono&display=swap');
+
+* {
+   margin: 0;
+   padding: 0%;
+}
+
+.logo img {
+   width: 23px;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+}
+
+.nav-list {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+.nav-list li {
+   list-style-type: none;
+   padding: 0 26px;
+}
+
+.nav-list li a {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.nav-list li a:hover {
+   color: #ff0404;
+}
+
+.rightNav {
+   width: 50%;
+   /* background-color: blue; */
+   text-align: right;
+}
+
+#search {
+   font-size: 18px;
+   border: 2px solid gray;
+   border-radius: 9px;
+   padding-left: 8px;
+}
+
+.background {
+   background: rgb(0, 0, 0, 0.7) url('../img/original.jpg');
+   background-size: cover;
+   background-blend-mode: darken;
+}
+
+.firstSection {
+   height: 70vh;
+}
+
+.box-main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   height: 70%;
+}
+
+.firstHalf {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.secondHalf {
+   width: 30%;
+}
+
+.secondHalf img {
+   width: 70%;
+   border: 2px solid white;
+   border-radius: 73%;
+   padding: 3px 2px;
+   display: block;
+   margin: auto;
+}
+
+.text-big {
+   font-size: 29px;
+}
+
+.text-small {
+   font-size: 18px;
+}
+
+.btn {
+   padding: 3px 7px;
+   margin: 4px;
+   border: 2px solid white;
+   border-radius: 10px;
+   font-size: 15px;
+   background: none;
+   color: white;
+   cursor: pointer;
+}
+
+.btn-sm {
+   padding: 1px 12px;
+
+}
+
+.secLeft {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   color: bisque;
+   font-family: 'Roboto Mono', monospace;
+   ;
+}
+
+.paras {
+   padding: 41px 39px;
+}
+
+.secRight {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   color: bisque;
+   font-family: 'Roboto Mono', monospace;
+}
+
+.secRight img,
+.secLeft img {
+   border: 2px solid white;
+   border-radius: 18%;
+   padding: 4px 4px;
+   width: 134px;
+   display: block;
+   margin: auto;
+}
+
+.secRight img {
+   margin-right: 95px;
+   width: 199px;
+}
+
+.secLeft img {
+   margin-left: 95px;
+   width: 148px;
+}
+
+.secSubTag {
+   font-size: 15px;
+}
+
+
+.contact {
+   background: linear-gradient(#283341, #6c737dd1);
+   color: aliceblue;
+   text-align: center;
+   padding: 17px 0;
+}
+
+.contForm {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: 4px auto;
+   padding: 25px 20px;
+   border: 2px solid white;
+   box-shadow: 2px 5px 7px 1px;
+}
+
+.contForm input {
+   outline: none;
+   padding: 4px;
+   margin: 2px;
+   border: 2px solid white;
+   border-radius: 9px;
+}
+
+.contForm textarea {
+   outline: none;
+   padding: 4px;
+   margin: 2px;
+   border: 2px solid white;
+   border-radius: 9px;
+}
+
+.btn-form {
+   max-width: 20%;
+   min-width: 10%;
+}
+
+.text-footer {
+   padding: 3px 0;
+   text-align: center;
+   background: linear-gradient(#0000003b, #283341);
+}
+
+.burger{
+   position:absolute;
+   right: 20px;
+   top: 5%;
+   cursor: pointer;
+   display:none;
+}
+
+.line{
+   width: 30px;
+   background-color: white;
+   height: 2px;
+   margin: 4px 2px;
+}
+
